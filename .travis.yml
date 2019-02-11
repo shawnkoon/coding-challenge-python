@@ -1,0 +1,16 @@
+notifications:
+  email: false
+
+# Only activate upon master/PR
+branches:
+  only:
+    - master
+
+language: python
+python:
+  - "3.6"
+
+install:
+  - make install
+script:
+  - make test
