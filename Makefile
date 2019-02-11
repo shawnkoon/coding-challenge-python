@@ -4,8 +4,8 @@ install:
 
 .PHONY: ci
 ci:
-	echo I need to replace this
+	python3 -m unittest discover -v -b
 
 .PHONY: test
 test:
-	echo I need to replace this $(module)
+	python3 -m unittest $(module)/test_app.py -v -b
