@@ -1,6 +1,7 @@
 import unittest
 from .app import HelloWorld
 
+
 class TestHelloWorld(unittest.TestCase):
     def setUp(self):
         self.name = 'shawnkoon'
