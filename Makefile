@@ -8,4 +8,4 @@ ci:
 
 .PHONY: test
 test:
-	python3 -m unittest $(module)/test_app.py -v -b
+	python3 -m unittest src/$(module)/test_app.py -v -b
