@@ -1,8 +1,8 @@
 # coding-challenge-python
 
-| Master                                                                                                                                                |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Build Status](https://travis-ci.com/shawnkoon/coding-challenge-python.svg?branch=master)](https://travis-ci.com/shawnkoon/coding-challenge-python) |
+| Master                                                                                                                                                | Versioning                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Build Status](https://travis-ci.com/shawnkoon/coding-challenge-python.svg?branch=master)](https://travis-ci.com/shawnkoon/coding-challenge-python) | [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=shawnkoon/coding-challenge-python)](https://dependabot.com) |
 
 Coding challenge practice using python 3.
 
