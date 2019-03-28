@@ -4,7 +4,8 @@ from .ListNode import ListNode
 class Solution:
     """
     Merge two sorted linked lists and return it as a new list.
-    The new list should be made by splicing together the nodes of the first two lists.
+    The new list should be made by splicing
+    together the nodes of the first two lists.
     """
 
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:

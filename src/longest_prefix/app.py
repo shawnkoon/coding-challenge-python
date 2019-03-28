@@ -1,10 +1,11 @@
-from typing import List
+from typing import cast, List
 
 
 class Solution:
     """
     Source : https://leetcode.com/problems/longest-common-prefix/
-    Write a function to find the longest common prefix string amongst an array of strings.
+    Write a function to find the longest common prefix string
+    amongst an array of strings.
     If there is no common prefix, return an empty string `""`.
     """
 
@@ -21,6 +22,6 @@ class Solution:
                     char = word[i]
                 if word[i] != char:
                     return res
-            res += char
+            res += cast(str, char)
 
         return res

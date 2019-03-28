@@ -1,10 +1,11 @@
-from typing import List, Dict
+from typing import Dict
 
 
 class Solution:
     """
     Source: https://leetcode.com/problems/valid-parentheses/
-    Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+    Given a string containing just the characters '(', ')', '{', '}', '[', ']'
+    determine if the input string is valid.
 
     An input string is valid if:
 
