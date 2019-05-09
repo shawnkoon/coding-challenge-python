@@ -26,9 +26,8 @@ def generate_folder(folder_name: str) -> str:
 def generate_app_file(path: str, class_name: str, typed: bool) -> None:
     with open(f'{path}/app.py', 'w+') as f:
         if typed:
-            f.write('from typing import List\n\n')
-        f.write(f"""
-class {class_name}:
+            f.write('from typing import List\n\n\n')
+        f.write(f"""class {class_name}:
     \"\"\"
     Source : <URL>
     <Description>
