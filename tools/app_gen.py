@@ -26,31 +26,35 @@ def generate_folder(folder_name: str) -> str:
 def generate_app_file(path: str, class_name: str, typed: bool) -> None:
     with open(f'{path}/app.py', 'w+') as f:
         if typed:
-            f.write('from typing import List\n\n\n')
-        f.write(f"""class {class_name}:
-    \"\"\"
-    Source : <URL>
-    <Description>
-    \"\"\"
-
-    def function(self):
-        pass
-""")
+            f.write('from typing import List\n'
+                    '\n'
+                    '\n'
+                    '')
+        f.write('class {class_name}:\n'
+                '    \"\"\"\n'
+                '    Source : <URL>\n'
+                '\n'
+                '    <Description>\n'
+                '    \"\"\"\n'
+                '\n'
+                '    def function(self):\n'
+                '        pass\n'
+                ''.format(class_name=class_name))
 
 
 def generate_test_file(path: str, class_name: str) -> None:
     with open(f'{path}/test_app.py', 'w+') as f:
-        f.write(f"""import unittest
-from .app import {class_name}
-
-
-class {class_name}Test(unittest.TestCase):
-    def setUp(self):
-        self.tester = {class_name}()
-
-    def test_case_1(self):
-        pass
-""")
+        f.write('import unittest\n'
+                'from .app import {class_name}\n'
+                '\n'
+                '\n'
+                'class {class_name}Test(unittest.TestCase):\n'
+                '    def setUp(self):\n'
+                '        self.tester = {class_name}()\n'
+                '\n'
+                '    def test_case_1(self):\n'
+                '        pass\n'
+                ''.format(class_name=class_name))
 
 
 if __name__ == '__main__':
