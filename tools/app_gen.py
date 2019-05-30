@@ -16,7 +16,7 @@ def generate(folder_name, class_name, typed):
 
 
 def generate_folder(folder_name: str) -> str:
-    path = '../src/{}'.format(folder_name)
+    path = '../src/algorithms/{}'.format(folder_name)
     os.mkdir(path)
     with open(f'{path}/__init__.py', 'w+') as f:
         f.write('')

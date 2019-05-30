@@ -8,12 +8,12 @@ Coding challenge practice using python 3.
 
 ## Key Points
 
-- ### 🎯 Algorithms & DataStructure
-- ### 🎯 Continuous Integration
-- ### 🎯 Problem Solving
-- ### 🎯 Test Driven Development (TDD)
-- ### 🎯 Python
-- ### 🎯 Fun?
+-   ### 🎯 Algorithms & DataStructure
+-   ### 🎯 Continuous Integration
+-   ### 🎯 Problem Solving
+-   ### 🎯 Test Driven Development (TDD)
+-   ### 🎯 Python
+-   ### 🎯 Fun?
 
 ## How to run
 
