@@ -1,5 +1,5 @@
 import unittest
-from ListNode import ListNode
+from .ListNode import ListNode
 
 
 class ListNodeTest(unittest.TestCase):
