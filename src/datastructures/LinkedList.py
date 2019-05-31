@@ -27,7 +27,7 @@ class LinkedList:
 
     @classmethod
     def from_arr(cls: 'LinkedList', values: List):
-        if len(values) == 0:
+        if not values:
             raise ValueError("values can not be empty.")
 
         res = cls(ListNode(values[0]))
