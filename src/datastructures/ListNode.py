@@ -1,6 +1,16 @@
 class ListNode:
     '''Generic List Node object.'''
 
+    @classmethod
+    def from_list(cls, items):
+        root = cur = cls(None)
+
+        for item in items:
+            cur.next = cls(item)
+            cur = cur.next
+
+        return root.next
+
     def __init__(self, val, next_: 'ListNode' = None):
         self.val = val
         self.next = next_
