@@ -16,9 +16,18 @@ class ListNode:
         self.next = next_
 
     def __eq__(self, target):
-        if self.val == target.val and self.next == target.next:
-            return True
-        return False
+        cur = self
+
+        while cur and target:
+            if cur.val != target.val:
+                return False
+            cur = cur.next
+            target = target.next
+
+        if cur or target:
+            return False
+
+        return True
 
     def __repr__(self):
         return f'ListNode(val={self.val}, next_={self.next})'
