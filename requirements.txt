@@ -1,5 +1,5 @@
 pylint==2.4.4
-autopep8==1.4.4
+autopep8==1.5
 flake8==3.7.9
 flake8-mypy==17.8.0
 Click==7.0
